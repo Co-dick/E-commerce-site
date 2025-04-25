@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.progress{
+    background-color: red;
+    height: 1px;
+    animation: load 3s ease-in 1;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 81px;
+
+
+}
+
+div.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 145px;
+    padding: 1px 13px;
+}
+
+nav ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 40px;
+    list-style: none;
+}
+
+nav ul li a{
+    height: 2px;
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    padding: 0 23px;
+}
+nav ul li a:hover{
+    font-weight:bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 20vw;
+    height: 4vh;
+    border: 1px solid blue;
+    border-radius: 12px;
+    margin: 7px;
+    padding: 12px;
+
+}
+
+div.container {
+    min-height: calc(90vh)
+}
+.slider{
+    margin: 12px auto;
+    width:70vw;
+}
+.slider img{
+    width: 69vw;
+    height: 40vh;
+}
+.cart{
+    width: 95vw;
+    margin: auto;
+}
+.carts{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    background: blanchedalmond;
+}
+.cart-items{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2px 12px;
+}
+.cart-items img{
+    height: 100px;
+    width: 187px;
+}
+.lines{
+    display: flex;
+    flex-direction:column ;
+}
+footer {
+    height: 5vh;
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid black;
+    font-family: 'Satisfy', cursive;
+}
